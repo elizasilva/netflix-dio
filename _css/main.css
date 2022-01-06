@@ -12,10 +12,11 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.container {
+header div.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,10 +28,10 @@ body {
     color: var(--vermelho);
     font-family: 'Arial Black', Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 30pt;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
@@ -39,4 +40,24 @@ header nav a{
 
 header nav a:hover {
     color: white;
+}
+
+.filme-principal {
+    font-size: 16pt;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/cinema_classico.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 30pt;
 }
