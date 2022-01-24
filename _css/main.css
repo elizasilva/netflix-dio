@@ -35,22 +35,37 @@ header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
-
 }
 
 header nav a:hover {
     color: white;
 }
 
-.filme-principal {
+.inicio-principal {
     font-size: 16pt;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/cinema_classico.jpg');
+    /*background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/cinema_classico.png');-*/
     height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+#poster-inicio {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/cinema_classico.png');
+}
+
+#poster-filmes {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/filmes.png');
+}
+
+#poster-series {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/series.png');
+}
+
+#poster-destaques {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/destaques.png');
 }
 
 .filme-principal .descricao {
@@ -62,7 +77,6 @@ header nav a:hover {
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 .botao {
@@ -95,6 +109,6 @@ header nav a:hover {
 
 .box-poster {
     height: 100%;
-    width: 100%;
+    width: 4100%;
     display: block;
 }
