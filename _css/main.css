@@ -14,6 +14,7 @@ body {
     background: var(--preto);
     font-family: 'Arial Black', Arial, Helvetica, sans-serif;
     color: white;
+    text-align: justify;
 }
 
 header div.container {
@@ -53,19 +54,19 @@ header nav a:hover {
 }
 
 #poster-inicio {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/cinema_classico.png');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('../_img/cinema_classico.png');
 }
 
 #poster-filmes {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/filmes.png');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('../_img/filmes.png');
 }
 
 #poster-series {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/series.png');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('../_img/series.png');
 }
 
 #poster-destaques {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../_img/destaques.png');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('../_img/destaques.png');
 }
 
 .filme-principal .descricao {
@@ -101,6 +102,7 @@ header nav a:hover {
 
 .container {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .filme-principal .container {
@@ -109,6 +111,10 @@ header nav a:hover {
 
 .box-poster {
     height: 100%;
-    width: 4100%;
+    width: 100%;
     display: block;
+}
+
+.carrossel-inicio {
+    margin-top: 5px;
 }
