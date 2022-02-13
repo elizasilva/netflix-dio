@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+#album {
+    width: 100%;
+    margin: 0px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#album li {
+    float: left;
+    width: 220px;
+    height: 330px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in;
+}
+
+li#destaque1 {
+    background: url('../_img/destaque01-min.png') no-repeat;
+    background-position: 60% 25%;
+    background-size: 440px 660px;
+    background-color: #ffffff;
+}
+
+#album li#destaque1:hover {
+    background-position: 0px 0px;
+    background-size: 220px 330px;
+}
+
+li#destaque2 {
+    background: url('../_img/destaque02-min.png') no-repeat;
+    background-position: 50% 20%;
+    background-size: 440px 660px;
+    background-color: #ffffff;
+}
+
+#album li#destaque2:hover {
+    background-position: 0px 0px;
+    background-size: 220px 330px;
+}
+
+li#destaque3 {
+    background: url('../_img/destaque03-min.png') no-repeat;
+    background-position: 65% 90%;
+    background-size: 440px 660px;
+    background-color: #ffffff;
+}
+
+#album li#destaque3:hover {
+    background-position: 0px 0px;
+    background-size: 220px 330px;
+}
+
+li#destaque4 {
+    background: url('../_img/destaque04-min.png') no-repeat;
+    background-position: 90% 50%;
+    background-size: 440px 660px;
+    background-color: #ffffff;
+}
+
+#album li#destaque4:hover {
+    background-position: 0px 0px;
+    background-size: 220px 330px;
+}
+
+li#destaque5 {
+    background: url('../_img/destaque05-min.png') no-repeat;
+    background-position: 50% 0%;
+    background-size: 440px 660px;
+    background-color: #ffffff;
+}
+
+#album li#destaque5:hover {
+    background-position: 0px 0px;
+    background-size: 220px 330px;
+}
+
+#album li#destaque1 span {
+    line-height: 50px;
+}
+
+#album li#destaque2 span {
+    line-height: 600px;
+}
+
+#album li#destaque3 span {
+    line-height: 600px;
+}
+
+#album li#destaque4 span {
+    line-height: 600px;
+}
+
+#album li#destaque5 span {
+    line-height: 50px;
+}
+
+li.catalogo span {
+    opacity: 1;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.7);
+    font-size: 12pt;
+ /**   line-height: 600px; **/
+    padding: 5px;
+}
+
+#album li:hover {
+    -webkit-transform: scale(1.3);
+}
+
+#album li:hover span {
+    opacity: 0;
+}
